@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site educativo sobre a conexão entre o meio rural e urbano para o desenvolvimento sustentável." />
+  <title>Raízes & Horizontes — Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-icon" aria-hidden="true">🌿</span>
+        <div>
+          <h1 class="brand-title">Raízes &amp; Horizontes</h1>
+          <p class="brand-subtitle">Onde o campo e a cidade se encontram</p>
+        </div>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" role="navigation" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#campo-cidade" class="nav-link">Campo &amp; Cidade</a></li>
+          <li><a href="#sustentabilidade" class="nav-link">Sustentabilidade</a></li>
+          <li><a href="#tecnologia" class="nav-link">Tecnologia</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#quiz" class="nav-link">Quiz</a></li>
+          <li><a href="#curiosidades" class="nav-link">Curiosidades</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== SEÇÃO INICIAL ===================== -->
+    <section id="inicio" class="section hero-section" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <!-- Ilustração HTML/CSS: paisagem dividida campo/cidade -->
+        <div class="landscape">
+          <div class="sky">
+            <div class="sun" aria-hidden="true"></div>
+            <div class="cloud c1" aria-hidden="true"></div>
+            <div class="cloud c2" aria-hidden="true"></div>
+            <div class="cloud c3" aria-hidden="true"></div>
+          </div>
+          <div class="horizon">
+            <!-- Lado rural -->
+            <div class="rural-side">
+              <div class="mountain m1" aria-hidden="true"></div>
+              <div class="mountain m2" aria-hidden="true"></div>
+              <div class="tree t1" aria-hidden="true"><div class="trunk"></div><div class="leaves"></div></div>
+              <div class="tree t2" aria-hidden="true"><div class="trunk"></div><div class="leaves"></div></div>
+              <div class="tree t3" aria-hidden="true"><div class="trunk"></div><div class="leaves"></div></div>
+              <div class="barn" aria-hidden="true">
+                <div class="barn-roof"></div>
+                <div class="barn-body"></div>
+              </div>
+            </div>
+            <!-- Divisor central -->
+            <div class="divider-road" aria-hidden="true">
+              <div class="road"></div>
+            </div>
+            <!-- Lado urbano -->
+            <div class="urban-side">
+              <div class="building b1" aria-hidden="true"><div class="windows"></div></div>
+              <div class="building b2 tall" aria-hidden="true"><div class="windows"></div></div>
+              <div class="building b3" aria-hidden="true"><div class="windows"></div></div>
+              <div class="building b4 medium" aria-hidden="true"><div class="windows"></div></div>
+              <div class="building b5" aria-hidden="true"><div class="windows"></div></div>
+            </div>
+          </div>
+          <div class="ground" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Educação &amp; Sustentabilidade</span>
+        <h2 id="hero-title" class="hero-title">Dois Mundos,<br><em>Uma Só Vida</em></h2>
+        <p class="hero-text">
+          O campo alimenta a cidade. A cidade impulsiona o campo. Descubra como essa parceria
+          transforma nossa sociedade, preserva o meio ambiente e constrói um futuro mais justo
+          e sustentável para todos.
+        </p>
+        <div class="hero-ctas">
+          <a href="#campo-cidade" class="btn btn-primary">Explorar</a>
+          <a href="#quiz" class="btn btn-outline">Fazer o Quiz</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CAMPO E CIDADE ===================== -->
+    <section id="campo-cidade" class="section" aria-labelledby="cc-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interdependência</span>
+          <h2 id="cc-title" class="section-title">Campo &amp; Cidade</h2>
+          <p class="section-desc">
+            A relação entre o meio rural e urbano é muito mais profunda do que parece.
+            Cada um depende do outro para prosperar.
+          </p>
+        </div>
+
+        <div class="two-col-cards">
+
+          <!-- Coluna: Campo → Cidade -->
+          <div class="col-card rural-card">
+            <div class="col-card-header">
+              <span class="col-icon" aria-hidden="true">🌾</span>
+              <h3>O que o Campo oferece à Cidade</h3>
+            </div>
+            <div class="info-cards-grid">
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🥦</span>
+                <h4>Alimentos</h4>
+                <p>Frutas, verduras, grãos e proteínas que abastecem mercados, restaurantes e lares urbanos todos os dias.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">💧</span>
+                <h4>Água</h4>
+                <p>Nascentes, rios e aquíferos protegidos nas zonas rurais garantem o abastecimento hídrico das cidades.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🌬️</span>
+                <h4>Ar Puro</h4>
+                <p>Florestas e vegetação fixam carbono, regulam o clima e purificam o ar que chega às metrópoles.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">⚡</span>
+                <h4>Energia</h4>
+                <p>Hidrelétricas, usinas de biomassa e parques eólicos instalados no campo fornecem eletricidade às cidades.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🌿</span>
+                <h4>Matéria-Prima</h4>
+                <p>Madeira, fibras, minerais e insumos naturais que alimentam toda a cadeia industrial urbana.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🧘</span>
+                <h4>Lazer e Bem-Estar</h4>
+                <p>Turismo rural, ecoturismo e retiros terapêuticos que recarregam o ritmo acelerado da vida nas cidades.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna: Cidade → Campo -->
+          <div class="col-card urban-card">
+            <div class="col-card-header">
+              <span class="col-icon" aria-hidden="true">🏙️</span>
+              <h3>O que a Cidade oferece ao Campo</h3>
+            </div>
+            <div class="info-cards-grid">
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🔬</span>
+                <h4>Tecnologia</h4>
+                <p>Máquinas, softwares agrícolas, drones e biotecnologia desenvolvidos nas cidades modernizam a produção rural.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🎓</span>
+                <h4>Educação</h4>
+                <p>Universidades, pesquisas e escolas técnicas formam profissionais que levam conhecimento ao campo.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🏥</span>
+                <h4>Saúde</h4>
+                <p>Hospitais, especialistas e redes de saúde pública atendem as populações rurais e suas demandas específicas.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">📦</span>
+                <h4>Insumos</h4>
+                <p>Fertilizantes, sementes melhoradas, embalagens e equipamentos fabricados nas cidades chegam ao produtor rural.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">💰</span>
+                <h4>Mercado</h4>
+                <p>As cidades são os maiores consumidores dos produtos agrícolas, garantindo renda e sustento às famílias rurais.</p>
+              </div>
+              <div class="info-card" tabindex="0">
+                <span class="info-icon" aria-hidden="true">🌐</span>
+                <h4>Conectividade</h4>
+                <p>Internet, telecomunicações e logística desenvolvidas nas cidades aproximam o produtor rural do mundo.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SUSTENTABILIDADE ===================== -->
+    <section id="sustentabilidade" class="section sustain-section" aria-labelledby="sust-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Meio Ambiente</span>
+          <h2 id="sust-title" class="section-title">Sustentabilidade</h2>
+          <p class="section-desc">
+            Práticas que unem campo e cidade na missão de preservar nosso planeta para as próximas gerações.
+          </p>
+        </div>
+        <div class="sustain-grid">
+
+          <div class="sustain-card" tabindex="0">
+            <div class="sustain-icon water" aria-hidden="true">💧</div>
+            <h3>Preservação da Água</h3>
+            <p>Reuso de água da chuva, irrigação eficiente, proteção de nascentes e tratamento de esgoto são práticas que garantem este recurso vital tanto no campo quanto na cidade.</p>
+            <ul class="sustain-list">
+              <li>Captação de água da chuva</li>
+              <li>Irrigação por gotejamento</li>
+              <li>Recuperação de matas ciliares</li>
+              <li>Tratamento e reuso de efluentes</li>
+            </ul>
+          </div>
+
+          <div class="sustain-card" tabindex="0">
+            <div class="sustain-icon recycle" aria-hidden="true">♻️</div>
+            <h3>Reciclagem &amp; Resíduos</h3>
+            <p>Da compostagem rural ao descarte correto urbano, gerenciar resíduos reduz poluição, gera emprego e transforma lixo em recurso produtivo.</p>
+            <ul class="sustain-list">
+              <li>Compostagem de resíduos orgânicos</li>
+              <li>Coleta seletiva nas cidades</li>
+              <li>Biodigestores para resíduos agropecuários</li>
+              <li>Logística reversa de embalagens</li>
+            </ul>
+          </div>
+
+          <div class="sustain-card" tabindex="0">
+            <div class="sustain-icon energy" aria-hidden="true">☀️</div>
+            <h3>Energia Limpa</h3>
+            <p>Solar, eólica, biomassa e pequenas hidrelétricas integram campo e cidade em uma matriz energética renovável que reduz emissões e democratiza o acesso à energia.</p>
+            <ul class="sustain-list">
+              <li>Painéis solares em propriedades rurais</li>
+              <li>Parques eólicos em áreas abertas</li>
+              <li>Biogás de resíduos agropecuários</li>
+              <li>Mini-redes comunitárias</li>
+            </ul>
+          </div>
+
+          <div class="sustain-card" tabindex="0">
+            <div class="sustain-icon food" aria-hidden="true">🌱</div>
+            <h3>Produção Consciente</h3>
+            <p>Agricultura orgânica, agrofloresta, consumo consciente e cadeias curtas de abastecimento ligam diretamente o produtor ao consumidor com respeito ao solo, à biodiversidade e às pessoas.</p>
+            <ul class="sustain-list">
+              <li>Agricultura orgânica e biodinâmica</li>
+              <li>Sistemas agroflorestais (SAFs)</li>
+              <li>Feiras de produtores locais</li>
+              <li>Redução do desperdício alimentar</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Indicadores visuais -->
+        <div class="sustain-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="70">0</span><span class="stat-unit">%</span>
+            <span class="stat-label">da água doce usada na agricultura</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="30">0</span><span class="stat-unit">%</span>
+            <span class="stat-label">dos alimentos são desperdiçados globalmente</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="85">0</span><span class="stat-unit">%</span>
+            <span class="stat-label">da biodiversidade em áreas rurais</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="3">0</span><span class="stat-unit">x</span>
+            <span class="stat-label">mais carbono armazenado no solo rural</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TECNOLOGIA ===================== -->
+    <section id="tecnologia" class="section tech-section" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Inovação</span>
+          <h2 id="tech-title" class="section-title">Tecnologia &amp; Inovação</h2>
+          <p class="section-desc">
+            Como a tecnologia aproxima campo e cidade, aumenta a produtividade e promove o desenvolvimento sustentável.
+          </p>
+        </div>
+
+        <!-- Linha do tempo -->
+        <div class="timeline" role="list" aria-label="Linha do tempo da inovação agrícola e urbana">
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">1960s</div>
+            <div class="timeline-content">
+              <h3>Revolução Verde</h3>
+              <p>Novas variedades de sementes, fertilizantes sintéticos e mecanização multiplicaram a produção agrícola mundial, alimentando populações urbanas crescentes.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">1980s</div>
+            <div class="timeline-content">
+              <h3>Computadores na Agropecuária</h3>
+              <p>Os primeiros softwares de gestão rural chegaram às fazendas, permitindo controle financeiro, planejamento de safras e rastreabilidade da produção.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2000s</div>
+            <div class="timeline-content">
+              <h3>Agricultura de Precisão</h3>
+              <p>GPS, sensores de solo e imagens de satélite permitiram aplicar insumos apenas onde necessário, reduzindo custos e impacto ambiental com dados precisos.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2010s</div>
+            <div class="timeline-content">
+              <h3>Internet das Coisas &amp; Big Data</h3>
+              <p>Sensores em tempo real monitoram clima, umidade e saúde animal. Big data analisa padrões e orienta decisões mais inteligentes no campo e na cadeia alimentar.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2020s</div>
+            <div class="timeline-content">
+              <h3>IA, Drones e Agritech</h3>
+              <p>Inteligência artificial prevê doenças nas lavouras, drones monitoram plantações, startups conectam produtores diretamente aos consumidores urbanos via apps.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item future" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">Futuro</div>
+            <div class="timeline-content">
+              <h3>Agricultura Regenerativa &amp; Cidades Inteligentes</h3>
+              <p>Fazendas verticais urbanas, bioeconomia circular e cidades que produzem seus próprios alimentos com zero desperdício — a integração total entre campo e cidade.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cards de tecnologia -->
+        <div class="tech-cards">
+          <div class="tech-card" tabindex="0">
+            <span class="tech-icon" aria-hidden="true">🚁</span>
+            <h4>Drones Agrícolas</h4>
+            <p>Monitoramento de lavouras, pulverização precisa e mapeamento aéreo com eficiência e segurança.</p>
+          </div>
+          <div class="tech-card" tabindex="0">
+            <span class="tech-icon" aria-hidden="true">🤖</span>
+            <h4>Inteligência Artificial</h4>
+            <p>Diagnóstico de doenças, previsão de safras e otimização logística que reduzem perdas e custos.</p>
+          </div>
+          <div class="tech-card" tabindex="0">
+            <span class="tech-icon" aria-hidden="true">🛰️</span>
+            <h4>Monitoramento por Satélite</h4>
+            <p>Imagens de satélite revelam saúde das culturas, desmatamento e mudanças climáticas em tempo real.</p>
+          </div>
+          <div class="tech-card" tabindex="0">
+            <span class="tech-icon" aria-hidden="true">📱</span>
+            <h4>Aplicativos Rurais</h4>
+            <p>Plataformas digitais conectam produtores a mercados, crédito, previsão do tempo e assistência técnica.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== GALERIA ===================== -->
+    <section id="galeria" class="section gallery-section" aria-labelledby="gal-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Visual</span>
+          <h2 id="gal-title" class="section-title">Galeria Interativa</h2>
+          <p class="section-desc">Imagens que celebram a beleza e a força da conexão entre campo e cidade.</p>
+        </div>
+        <div class="gallery-grid" role="list">
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Campos agrícolas ao amanhecer">
+            <div class="gallery-img agri" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Campos Agrícolas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Skyline de cidade moderna">
+            <div class="gallery-img city" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Cidade Moderna</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Energia solar em propriedade rural">
+            <div class="gallery-img solar" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Energia Solar Rural</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Mercado de produtos orgânicos">
+            <div class="gallery-img market" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Feira Orgânica</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Drone sobrevoando lavoura">
+            <div class="gallery-img drone" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Drone Agrícola</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Floresta com rio preservado">
+            <div class="gallery-img forest" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Floresta Preservada</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Horta urbana comunitária">
+            <div class="gallery-img urban-farm" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Horta Urbana</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" role="listitem" tabindex="0" aria-label="Parque eólico em área rural">
+            <div class="gallery-img wind" aria-hidden="true">
+              <div class="gallery-overlay">
+                <span class="gallery-label">Energia Eólica</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== QUIZ ===================== -->
+    <section id="quiz" class="section quiz-section" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Teste seus Conhecimentos</span>
+          <h2 id="quiz-title" class="section-title">Quiz Educativo</h2>
+          <p class="section-desc">10 perguntas sobre sustentabilidade, agricultura, tecnologia e a relação campo–cidade.</p>
+        </div>
+
+        <div class="quiz-wrapper">
+
+          <!-- Tela inicial do quiz -->
+          <div class="quiz-start" id="quizStart">
+            <div class="quiz-start-icon" aria-hidden="true">🧩</div>
+            <h3>Pronto para o desafio?</h3>
+            <p>Responda 10 perguntas e descubra o quanto você sabe sobre a conexão entre campo e cidade!</p>
+            <button class="btn btn-primary" id="startQuizBtn">Iniciar Quiz</button>
+          </div>
+
+          <!-- Progresso -->
+          <div class="quiz-progress" id="quizProgress" hidden>
+            <div class="progress-text">
+              Pergunta <span id="currentQ">1</span> de <span id="totalQ">10</span>
+            </div>
+            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="score-display">Pontuação: <span id="liveScore">0</span></div>
+          </div>
+
+          <!-- Pergunta -->
+          <div class="quiz-question-area" id="quizQuestionArea" hidden>
+            <p class="question-text" id="questionText"></p>
+            <div class="options-grid" id="optionsGrid" role="radiogroup" aria-labelledby="questionText"></div>
+            <button class="btn btn-primary" id="nextBtn" hidden>Próxima Pergunta</button>
+          </div>
+
+          <!-- Resultado -->
+          <div class="quiz-result" id="quizResult" hidden>
+            <div class="result-emoji" id="resultEmoji" aria-hidden="true"></div>
+            <h3 id="resultTitle"></h3>
+            <p id="resultMessage"></p>
+            <div class="result-score">
+              <span id="finalScore">0</span>
+              <span class="result-total">/ 10</span>
+            </div>
+            <div class="result-details" id="resultDetails"></div>
+            <button class="btn btn-primary" id="restartBtn">🔄 Reiniciar Quiz</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CURIOSIDADES ===================== -->
+    <section id="curiosidades" class="section facts-section" aria-labelledby="facts-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Você Sabia?</span>
+          <h2 id="facts-title" class="section-title">Curiosidades</h2>
+          <p class="section-desc">Fatos surpreendentes sobre a relação entre campo, cidade e natureza.</p>
+        </div>
+        <div class="facts-grid">
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 1">
+            <div class="fact-number" aria-hidden="true">01</div>
+            <div class="fact-icon" aria-hidden="true">🐝</div>
+            <h3>As abelhas alimentam as cidades</h3>
+            <p>Cerca de 75% das culturas alimentares do mundo dependem de polinizadores como as abelhas. Sem os insetos do campo, a oferta de alimentos nas cidades seria drasticamente reduzida.</p>
+            <span class="fact-tag">Biodiversidade</span>
+          </div>
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 2">
+            <div class="fact-number" aria-hidden="true">02</div>
+            <div class="fact-icon" aria-hidden="true">🌆</div>
+            <h3>Cidades que produzem alimentos</h3>
+            <p>Cidades como Havana (Cuba) produzem mais de 50% de seus vegetais dentro da própria área urbana por meio de hortas comunitárias, integrando completamente campo e cidade.</p>
+            <span class="fact-tag">Agricultura Urbana</span>
+          </div>
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 3">
+            <div class="fact-number" aria-hidden="true">03</div>
+            <div class="fact-icon" aria-hidden="true">🌊</div>
+            <h3>O campo protege nossa água</h3>
+            <p>Uma floresta saudável pode absorver até 1.000 litros de água por hectare por dia, recarregando aquíferos que abastecem cidades. A devastação rural ameaça diretamente o abastecimento urbano.</p>
+            <span class="fact-tag">Recursos Hídricos</span>
+          </div>
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 4">
+            <div class="fact-number" aria-hidden="true">04</div>
+            <div class="fact-icon" aria-hidden="true">🌡️</div>
+            <h3>Árvores urbanas resfiam cidades</h3>
+            <p>Uma única árvore adulta pode reduzir a temperatura local em até 8°C e tem efeito equivalente a 10 aparelhos de ar-condicionado funcionando continuamente — uma solução rural dentro da cidade.</p>
+            <span class="fact-tag">Clima Urbano</span>
+          </div>
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 5">
+            <div class="fact-number" aria-hidden="true">05</div>
+            <div class="fact-icon" aria-hidden="true">🌍</div>
+            <h3>Agro é o maior exportador</h3>
+            <p>O Brasil é o maior exportador mundial de soja, café, açúcar, suco de laranja e carne bovina. A riqueza gerada no campo financia boa parte da infraestrutura e serviços disponíveis nas cidades brasileiras.</p>
+            <span class="fact-tag">Economia</span>
+          </div>
+
+          <div class="fact-card" tabindex="0" aria-label="Curiosidade 6">
+            <div class="fact-number" aria-hidden="true">06</div>
+            <div class="fact-icon" aria-hidden="true">📡</div>
+            <h3>Internet chegando ao campo</h3>
+            <p>Em 2023, o acesso à internet nas zonas rurais brasileiras já ultrapassava 80%, graças a programas governamentais e iniciativas privadas que levaram conectividade a regiões remotas, transformando a vida dos produtores.</p>
+            <span class="fact-tag">Tecnologia</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon" aria-hidden="true">🌿</span>
+        <span class="brand-title">Raízes &amp; Horizontes</span>
+      </div>
+      <p class="footer-desc">Um projeto educativo sobre a conexão entre o meio rural e o meio urbano, promovendo o desenvolvimento sustentável e a consciência ambiental.</p>
+      <nav class="footer-nav" aria-label="Navegação do rodapé">
+        <a href="#inicio">Início</a>
+        <a href="#campo-cidade">Campo &amp; Cidade</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#curiosidades">Curiosidades</a>
+      </nav>
+      <div class="footer-bottom">
+        <p>Projeto educativo sem fins lucrativos · Todos os direitos reservados · <span id="footerYear"></span></p>
+        <p>Desenvolvido com 💚 para promover a sustentabilidade e a educação ambiental.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página" hidden>↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
